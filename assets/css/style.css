@@ -35,3 +35,10 @@ footer{
   background: black;
   color: white;
 }
+
+.container-footer{
+  display: block;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom:10px;
+}
