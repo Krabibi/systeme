@@ -1,0 +1,18 @@
+img{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    margin:100px;
+}
+
+.text{
+    margin:180px 100px;
+}
+
