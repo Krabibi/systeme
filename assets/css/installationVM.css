@@ -1,0 +1,31 @@
+.image h2 {
+    margin: 50px 60px 0 60px;
+    padding: 15px 340px;
+    background-color: rgba(39, 37, 37, 0.64);
+}
+
+.oracle, .etapes {
+    margin: 0 30px 30px 30px;
+    padding: 0 0 30px 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.oracle img {
+    width: 35em;
+    height: auto;
+    padding: 30px;
+}
+
+.etapes {
+    padding: 0 30px 30px 30px;
+    text-align: start;
+}
+
+.etapes img {
+    width: 35em;
+    height: auto;
+    padding: 30px 30px 0 0;
+}

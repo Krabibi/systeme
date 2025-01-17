@@ -1,39 +1,6 @@
 html{
-    background: black;
     scroll-behavior: smooth;
 }
-
-.main-nav{
-    background-color: rgba(197, 197, 201, 0.5);
-    display: flex;
-    justify-content: space-evenly;
-    padding: 16px;
-}
-
-.main-nav a{
-    text-decoration: none;
-    color: black;
-}
-
-#img-nav{
-    width: 30px;
-    max-height:35px;
-}
-
-.nav-container{
-    margin-top: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-}
-
-
-
-
-
 
 #scroll, #scroll:hover, #scroll:visited {
     text-decoration: none;
