@@ -1,0 +1,141 @@
+html{
+    background: black;
+    scroll-behavior: smooth;
+}
+
+.main-nav{
+    background-color: rgba(197, 197, 201, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#img-nav{
+    width: 30px;
+    max-height:35px;
+}
+
+.nav-container{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+#scroll, #scroll:hover, #scroll:visited {
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 38%;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+
+
+
+#a_propos {
+    color: white;
+    padding: 3rem 3rem;
+    text-align: left;
+
+    padding: 1rem;
+    background: linear-gradient(
+            150deg,
+            black 30%,
+            gray 100%
+    );
+
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+#actions {
+    background: black;
+}
+
+#actions h2 {
+    color: white;
+    padding: 3rem 3rem;
+    text-align: left;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#actions .image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0rem 3rem;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 15px;
+
+    transition: transform .1s;
+    box-shadow: 0 0 10px rgb(9, 10, 11);
+}
+
+.image img:hover{
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(101, 165, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: black;
+    color: white;
+}
+
+.container-footer{
+    display: block;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom:10px;
+}
