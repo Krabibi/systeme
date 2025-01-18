@@ -32,81 +32,79 @@
 <body>
 <main>
     <section class="image">
-        <h2> Etape de l'installation</h2>
-        <article class="etapes">
-            <img src="assets/img/img-creationpersonne/img.png">
-            <p> Fournir des espaces de travail sécurisés et cryptés. VirtualBox sécurise les connexions à distance aux applications
-                restreintes grâce à des clés de chiffrement de 256 bits, et garantit que les utilisateurs ne peuvent pas télécharger
-                ou stocker des données sur des terminaux distants. </p>
-        </article>
-
+        <h2> <b>Création d'un administrateur</b></h2>
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_1.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p>On ouvre le terminal.</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_2.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> Avec la commande : <br><br>
+            <b>sudo useradd admin_Gr02_Binome02 -p 1234</b>
+            <br><br>
+            On crée un nouvel utilisateur ( -p pour passeword ).</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_3.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> Avec la commande : <br><br>
+                <b>sudo cat /etc/passwd</b>
+            <br><br>
+            On vérifie que l'utilisateur est bien créé.</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_4.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> Il s'affiche à la dernière ligne alors c'est bien le cas. </p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_5.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> Grâce à l'interface graphique, on peut en être complètement certain.
+            <br> Il faut maintenant le transformer en administrateur.</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_6.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> <p> Avec la commande : <br><br>
+            <b>sudo usermod -aG sudo admin_Gr02_Binome02</b>
+            <br><br> On change les droits de l'utilisateur en administarteur.</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_7.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> On vérifie que tout fonctionne par l'interface graphique. </p>
         </article>
 
-        <h2> Etape de l'installation</h2>
+        <h2> <b>Création de deux utilisateurs</b></h2>
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_8.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> Avec la commande : <br><br>
+                <b>sudo useradd "nom"</b>
+                <br><br>
+                On crée deux nouvels utilisateurs.</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_9.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> On vérifie que tout fonctionne par l'interface graphique.</p>
         </article>
 
-        <h2> Etape de l'installation</h2>
+        <h2><b>Création d'un groupe</b></h2>
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_10.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> Avec la commande : <br><br>
+                <b>sudo groupadd "nom"</b>
+                <br><br>
+                On crée un nouveau groupe.</p>
         </article>
 
         <article class="etapes">
             <img src="assets/img/img-creationpersonne/img_11.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <p> On vérifie que tout fonctionne par l'interface graphique. </p>
         </article>
+
 
 
 
