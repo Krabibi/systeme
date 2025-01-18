@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Machine virtuelle</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/installationVM.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,21 +13,21 @@
 <header>
   <!-------------------nav bar-------------------->
   <nav class="main-nav">
-  <div>
-    <a href="index.html">
-      <img src="assets/img/img-acceuil/bash%20logo.png" alt="bash logo" id="img-nav">
-    </a>
-  </div>
-  <div class="nav-container">
-    <a href="index.html">Accueil</a>
-  </div>
-  <div class="nav-container">
-    <a href="machine.html">definition</a>
-  </div>
-  <div class="nav-container">
-    <a href="installation.html">installation</a>
-  </div>
-</nav>
+    <div>
+      <a href="index.html">
+        <img src="assets/img/img-acceuil/bash%20logo.png" alt="bash logo" id="img-nav">
+      </a>
+    </div>
+    <div class="nav-container">
+      <a href="index.html">Accueil</a>
+    </div>
+    <div class="nav-container">
+      <a href="machine.html">Definition</a>
+    </div>
+    <div class="nav-container">
+      <a href="installation.html">Installation</a>
+    </div>
+  </nav>
   <!-----------------end nav bar-------------------->
 </header>
 <body>
@@ -78,6 +79,133 @@
   </div>
   <!----------------end Carousel-------------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+  <main>
+    <section class="image">
+      <h2 > La Virtualisation </h2>
+      <article class="oracle">
+        <p> La virtualisation est une technologie que vous pouvez utiliser pour créer des représentations virtuelles de serveurs, <br>
+          de stockage, de réseaux et d'autres machines physiques. <br> Le logiciel virtuel imite les fonctions du matériel physique
+          pour exécuter plusieurs machines virtuelles sur une seule <br> machine physique. Les entreprises ont recours à la virtualisation
+          pour utiliser efficacement leurs ressources <br> matérielles et obtenir un meilleur rendement de leurs investissements.<br>
+          Elle alimente également les services de cloud computing qui aident les organisations à gérer leur infrastructure plus
+          efficacement. </p>
+        <img src="assets/img/img-acceuil/virtualisation2.jpg">
+      </article>
+
+
+
+
+
+      <h2> Différence entre émulateur, simulateur et outil de virtualisation </h2>
+      <article class="etapes">
+        <img src="assets/img/img-acceuil/emulateur.webp">
+        <p> Définition : Un émulateur reproduit fidèlement le comportement et les fonctionnalités d'un système ou d'un matériel
+          sur une autre plateforme.
+          Objectif : Permet d'exécuter des logiciels ou des systèmes conçus pour une architecture différente sur une autre machine.
+          Caractéristiques :
+          Reproduit le matériel (processeur, carte graphique, mémoire, etc.) au niveau bas.
+          Assure une compatibilité quasi complète avec le système émulé. </p>
+      </article>
+
+      <article class="etapes">
+        <img src="assets/img/img-acceuil/simulateur.jpg">
+        <p> Définition : Un simulateur imite le comportement d’un système ou d’un processus dans un environnement contrôlé
+          sans reproduire nécessairement le matériel sous-jacent.
+          Objectif : Étudier et tester des comportements, des modèles ou des algorithmes dans des conditions proches de la réalité.
+          Caractéristiques :
+          Ne reproduit pas fidèlement le matériel.
+          Se concentre sur la modélisation des comportements et des interactions.
+          Moins précis qu'un émulateur pour reproduire le matériel réel.</p>
+      </article>
+
+      <article class="etapes">
+        <img src="assets/img/img-acceuil/outil.jpg">
+        <p> Définition : La virtualisation consiste à créer une version logicielle d’un matériel ou d’un système d’exploitation,
+          appelée machine virtuelle, fonctionnant dans un environnement isolé.
+          Objectif : Exécuter plusieurs systèmes d’exploitation ou environnements indépendants sur un même matériel physique.
+          Caractéristiques :
+          Crée une machine virtuelle qui fonctionne comme un véritable ordinateur.
+          Utilise un hyperviseur pour gérer les ressources matérielles (CPU, RAM, etc.) entre plusieurs machines virtuelles.
+          Plus performant et précis que l’émulation, car il repose sur les ressources matérielles réelles.
+        </p>
+      </article>
+
+      <div class="diff">
+        <h3> Résumé des différences : </h3>
+        <table>
+          <tr>
+            <th>Critère</th>
+            <th>Émulateur</th>
+            <th>Simulateur</th>
+            <th>Outil de Virtualisation</th>
+          </tr>
+          <tr>
+            <th>Action</th>
+            <td>Reproduit matériel et logiciel fidèlement</td>
+            <td>Reproduit le comportement ou les processus</td>
+            <td>Crée un environnement virtuel isolé</td>
+          </tr>
+          <tr>
+            <th>Exemples</th>
+            <td>QEMU, BlueStacks, Dolphin</td>
+            <td>Cisco Packet Tracer, Xcode iOS Simulator</td>
+            <td>VMware, VirtualBox, Docker</td>
+          </tr>
+          <tr>
+            <th>Résumé</th>
+            <td>Exécuter un système conçu pour un matériel différent</td>
+            <td>Tester des scénarios ou comportements</td>
+            <td>Créer des environnements indépendants sur un même matériel</td>
+          </tr>
+        </table>
+      </div>
+
+
+      <h2 > Type de virtualisation pour les environnements </h2>
+      <div class="diff">
+        <table>
+          <tr>
+            <th>Environnement</th>
+            <th>Type de Virtualisation</th>
+            <th>Hyperviseur</th>
+            <th>Cas d'utilisation</th>
+          </tr>
+          <tr>
+            <th>VirtualBox</th>
+            <td>Type 2 (hébergée)</td>
+            <td>Logiciel</td>
+            <td>Tests, développement, apprentissage</td>
+          </tr>
+          <tr>
+            <th>VMware Workstation</th>
+            <td>Type 2 (hébergée)</td>
+            <td>Logiciel</td>
+            <td>Tests, simulateurs d'environnements multiples</td>
+          </tr>
+          <tr>
+            <th>Stratus (ftServer)</th>
+            <td>Type 1 (bare-metal)</td>
+            <td>Bare-metal (direct)</td>
+            <td>Applications critiques, haute disponibilité</td>
+          </tr>
+        </table>
+        <div class="diff">
+          <table>
+            <tr>
+              <td>VirtualBox et VMware Workstation sont parfaits pour des environnements non critiques, souvent utilisés pour le développement et les tests.</td>
+            </tr>
+            <tr>
+              <td>Stratus est conçu pour des environnements critiques où la fiabilité, la haute disponibilité, et la tolérance aux pannes sont indispensables,
+                avec une virtualisation directe sur le matériel.</td>
+            </tr>
+          </table>
+      </div>
+
+    </section>
+  </main>
 </body>
 <footer>
   <div class="container-footer">

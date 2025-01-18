@@ -1,20 +1,32 @@
 html{
   background: black;
+
 }
+
+nav {
+  position: fixed; /* La navigation est fixée à un endroit précis */
+  top: 0;          /* Collée en haut de la page */
+  width: 100%;     /* Prend toute la largeur de la page */
+  z-index: 4;
+}
+
 .main-nav{
-  background-color: rgba(197, 197, 201, 0.5);
+  background-color: #c5c5c9;
   display: flex;
   justify-content: space-evenly;
   padding: 16px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .main-nav a{
   text-decoration: none;
   color: black;
+
 }
 
 #img-nav{
   width: 30px;
   max-height:35px;
+
 }
 
 .nav-container{
@@ -22,12 +34,36 @@ html{
   margin-top: 5px;
   margin-right: 10px;
   margin-left: 10px;
+
 }
 
 .carousel-caption.d-none.d-md-block {
   background: #000000d9;
   border-radius: 15px;
 }
+
+
+
+table{
+  border: 3px solid #4b6a75;
+  margin-top: 30px;
+}
+
+th,td {
+  border: 1px solid #4b6a75;
+  padding: 10px 10px;
+}
+
+.diff{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  text-align: center;
+}
+
+
+
 
 
 

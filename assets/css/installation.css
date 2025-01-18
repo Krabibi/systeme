@@ -85,6 +85,18 @@ html{
     box-shadow: 0 0 10px rgb(101, 165, 255);
 }
 
+figure {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 25px;
+    color: white;
+}
+
 
 
 
