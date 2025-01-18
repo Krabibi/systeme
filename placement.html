@@ -32,116 +32,107 @@
 <body>
 <main>
     <section class="image">
-        <h2 > Choix de la VMWare : Virtual Box </h2>
-        <article class="oracle">
-            <p> Fournir des espaces de travail sécurisés et cryptés. VirtualBox sécurise les connexions à distance aux applications
-                restreintes grâce à des clés de chiffrement de 256 bits, et garantit que les utilisateurs ne peuvent pas télécharger
-                ou stocker des données sur des terminaux distants. </p>
-            <img src="assets/img/img-installationVM/virtualbox-oracle.jpg">
-        </article>
-
-        <h2> Etape de l'installation</h2>
+        <h2><b>Hebergement d'un site web sur une machine virtuelle</b></h2>
         <article class="etapes">
-            <img src="assets/img/img-placement/img.png">
-            <p> Fournir des espaces de travail sécurisés et cryptés. VirtualBox sécurise les connexions à distance aux applications
-                restreintes grâce à des clés de chiffrement de 256 bits, et garantit que les utilisateurs ne peuvent pas télécharger
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img.png" alt="image d'une machine">
+            <p> Serveur apache
+                <br>Commande : <br><br>
+                <b>sudo apt install apache2 </b></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_1.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_1.png" alt="image d'une machine">
+            <p>Si ça ne marche pas comme ici, faire :
+                <br>Commande : <br><br>
+                <b>sudo apt-get update </b></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_2.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_2.png" alt="image d'une machine">
+            <p> Et refaire
+                <br>Commande : <br><br>
+                <b>ls /var/www/html </b></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_3.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_3.png" alt="image d'une machine">
+            <p>Verifier si ça marche bien
+                <br>Commande : <br><br>
+                <b>ls –l /var/www/html </b></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_4.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_4.png" alt="image d'une machine">
+            <p> Créer un repertoire et faire un test
+                <br>Commande : <br><br>
+                <b>mkdir montuto.fr </b><br>
+                <b>cd montuto.fr  </b><br>
+                <b>echo “ Votre message test “ > test.html </b><br></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_5.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_5.png" alt="image d'une machine">
+            <p> Aller dans le repertoire d’apache2
+                <br>Commande : <br>
+                <br>cd /etc/apache2/ <br>
+                <b>Puis dans sites-enabled</b><br>
+                <b>cd sites-enabled   </b><br></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_6.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_6.png" alt="image d'une machine">
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_7.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_7.png" alt="image d'une machine">
+            <p> <br>Commande : <br>
+                <br><b>sudo vi 000-default.conf </b><br>
+                Et se déplacer avec les flèches </p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_8.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_8.png" alt="image d'une machine">
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_9.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_9.png" alt="image d'une machine">
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_10.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_10.png" alt="image d'une machine">
+            <p> <br>Commande : <br>
+                <br><b>:wp</b><br>
+            Pour enregistrer</p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_11.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_11.png" alt="image d'une machine">
+            <p> Maintenant il faut rafraichir le systeme:
+            <br>Commande : <br>
+            <br><b>sudo systemctl reload apache2.service</b> <br></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_12.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_12.png" alt="image d'une machine">
+            <p> <br>Commande : <br>
+                <br><b>cd..</b><br></p>
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_13.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_13.png" alt="image d'une machine">
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_14.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_14.png" alt="image d'une machine">
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_15.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_15.png" alt="image d'une machine">
         </article>
 
         <article class="etapes">
-            <img src="assets/img/img-placement/img_16.png">
-            <p> Fournir des espa
-                ou stocker des données sur des terminaux distants. </p>
+            <img src="assets/img/img-placement/img_16.png" alt="image d'une machine">
+            <p> Enlever les # </p>
         </article>
 
 

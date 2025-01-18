@@ -100,21 +100,36 @@ figcaption {
 
 
 
+@media (max-width: 1024px) {
+    #a_propos {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 
+    #actions .image {
+        grid-template-columns: 1fr;
+        padding: 0rem 2rem;
+    }
 
+    #actions h2 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
+    figcaption {
+        font-size: 18px;
+    }
 
-
-
-
-footer{
-    background: black;
-    color: white;
+    .gant {
+        width: 20%;
+        height: auto;
+    }
 }
 
-.container-footer{
-    display: block;
-    text-align: center;
-    padding-top:25px;
-    padding-bottom:10px;
-}
+
+
+
+
+
